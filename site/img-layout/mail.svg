@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="22px" viewBox="0 0 30 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44 (41411) - http://www.bohemiancoding.com/sketch -->
+    <title>mail</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="06-CONTACT" transform="translate(-848.000000, -1052.000000)" fill-rule="nonzero" fill="#3BC0D1">
+            <g id="CONTACT" transform="translate(206.000000, 794.000000)">
+                <g id="content" transform="translate(642.000000, 58.000000)">
+                    <g id="mail" transform="translate(0.000000, 198.000000)">
+                        <g transform="translate(0.000000, 2.000000)" id="Shape">
+                            <path d="M14.7531987,15.1891054 L11.0598204,12 L0.5,20.9299159 C0.883838384,21.2812223 1.4020202,21.5 1.97351291,21.5 L27.5328844,21.5 C28.1022447,21.5 28.6182941,21.2812223 29,20.9299159 L18.4465769,12 L14.7531987,15.1891054 Z"></path>
+                            <path d="M29,0.587166667 C28.6161903,0.223166667 28.1001796,0 27.5265973,0 L1.96913811,0 C1.39982044,0 0.883809666,0.225333333 0.5,0.5915 L14.7478677,13 L29,0.587166667 Z"></path>
+                            <polygon points="0 2 0 20 10.5 11.1018296"></polygon>
+                            <polygon points="19.5 11.1050415 30 20 30 2"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

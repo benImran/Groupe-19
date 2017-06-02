@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>L'architecture de votre région</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+
+  </head>
+
+  <body>
+
+    <!---------------------H E A D E R---------------------->
+    <header class="bg-noir">
+      <div class="inner">
+        <div class="logo">
+          <a href=""><img src="img-layout/logo.png" alt="logo_larchitecture" title="L'architecture de votre region"></a>
+        </div>
+        <nav class="clearfix">
+          <ul>
+            <li><a class="header-active" href="#">les revues</a></li>
+            <li><a href="#">appel d'offre</a></li>
+            <li><a href="#">actualités</a></li>
+            <li class="highlight clearfix">
+              <div class="clearfix">
+                <a href="#">commander</a><a href="#">/ &nbsp; s'abonner</a></div>
+            </li>
+          </ul>
+          <div class="menuburger">
+            <svg width="65px" height="17px" viewBox="0 0 65 17" version="1.1">
+              <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="svgmenu" transform="translate(-236.000000, -17.000000)" fill="#fff">
+                  <g id="HEADER">
+                    <g id="BURGERMENU" transform="translate(20.000000, 11.000000)">
+                    <g id="burger" transform="translate(216.000000, 6.000000)">
+                        <rect id="Rectangle-3" x="22" y="7.22005988" width="32" height="2.06287425"></rect>
+                        <rect id="Rectangle-3" x="15" y="14.4401198" width="50" height="2.06287425"></rect>
+                        <rect id="Rectangle-2" x="0" y="0" width="50" height="2.06287425"></rect>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </svg>
+            <p class="activemenusvg">Menu</p>
+          </div>
+        </nav>
+        <div class="menuburger-div">
+          <ul>
+            <li><a class="header-active" href="#">les revues</a></li>
+            <li><a href="#">appel d'offre</a></li>
+            <li><a href="#">actualités</a></li>
+            <li><a href="#">commander</a><a href="#"> &nbsp;/ &nbsp; s'abonner</a></li>
+          </ul>
+        </div>
+      </div>
+
+    </header>
+
+
+
+    <main id="formulaire">
+      <h2 class="main_title">
+        Je souhaite
+        <!-- <span class="commander-revue">
+          commander une revue
+          <img src="img-layout/arrow-blue.png" alt="fleche">
+        </span>
+        <span class="abonnement-revue">
+          m'abonner
+        </span> -->
+        <form class="global-form" id="commander-abonnement-form">
+        <div class="box">
+          <div class="label-alone">
+            <input type="radio" name="radio" id="commander" class="css-radio" />
+            <label for="commander" class="css-label"><span>commander une revue</span></label>
+          <br/>
+          </div>
+          <div class="label-alone">
+            <input type="radio" name="radio" id="abonnement" class="css-radio" />
+            <label for="abonnement" class="css-label"><span>m'abonner</span></label>
+          <br/>
+        </div>
+        </div>
+      </form>
+      </h2>
+
+      <form method="post" action="form.php" class="clearfix">
+        <fieldset class="right">
+
+          <div class="champ">
+            <label for="nom">Nom<SUB>*</SUB></label>
+            <input type="text" name="nom" id="nom" placeholder="Durand">
+          </div>
+
+          <div class="champ">
+            <label for="prenom">Prenom<SUB>*</SUB></label>
+            <input type="text" name="prenom" id="prenom" placeholder="Pierre">
+          </div>
+
+          <div class="champ">
+            <label for="adresse">Adresse<SUB>*</SUB></label>
+            <input type="text" name="adresse" id="adresse" placeholder="123 rue de l'Elysée">
+          </div>
+
+          <div class="champ">
+            <label for="ville">Ville<SUB>*</SUB></label>
+            <input type="text" name="ville" id="ville" placeholder="Paris">
+          </div>
+
+          <div class="champ">
+            <label for="code_postal">Code postal <SUB>*</SUB></label>
+            <input type="number" name="code_postal" id="code_postal" placeholder="75008">
+          </div>
+
+          <div class="champ">
+            <label for="pays">Pays<SUB>*</SUB></label>
+            <input type="text" name="pays" id="pays" placeholder="France">
+          </div>
+
+          <div class="champ">
+            <label for="email">Email <SUB>*</SUB></label>
+            <input type="email" name="email" id="email" placeholder="francoisdurand@mail.com">
+          </div>
+
+          <div class="champ">
+            <label for="email_verification">Email vérification<SUB>*</SUB></label>
+            <input type="email" name="email_verification" id="email_verification" placeholder="francoisdurand@mail.com">
+          </div>
+
+        </fieldset>
+        <fieldset class="left">
+
+          <div class="champ">
+            <label for="telephone">Téléphone (+33)<SUB>*</SUB></label>
+            <input type="tel" name="telephone" id="telephone" placeholder="612345678">
+          </div>
+
+          <div class="champ">
+            <label for="fax">Fax</label>
+            <input type="tel" name="fax" id="fax">
+          </div>
+
+          <div class="champ">
+            <label for="raison_sociale">Raison sociale</label>
+            <input type="text" name="raison_sociale" id="raison_sociale" placeholder="Entreprise">
+          </div>
+
+          <div class="champ">
+            <label for="activite">Activité</label>
+            <input type="text" name="activite" id="activite">
+          </div>
+
+          <div class="champ">
+            <label for="fonction">Fonction</label>
+            <input type="text" name="fonction" id="fonction">
+          </div>
+
+          <div class="champ">
+            <label for="secteur_geographique">Secteur géographique</label>
+            <select class="" name="pays" id="pays">
+              <option value="france">France</option>
+              <option value="dom">DOM</option>
+              <option value="tom">TOM</option>
+              <option value="suisse">Suisse</option>
+              <option value="europe">Europe</option>
+            </select>
+          </div>
+
+          <div class="champ">
+            <label for="quantite">Quantité</label>
+            <input type="number" name="quantite" id="quantite" value="1">
+          </div>
+
+          <div class="champ">
+            <label for="numero">Numéro de la revue</label>
+            <input type="number" name="numero" id="numero" value="285">
+          </div>
+
+        </fieldset>
+      </form>
+      <div class="exemple_container">
+        <h2>Prévisualisation de la revue</h2>
+        <img src="img-content/magazine.png" alt="previsualisation de la revue" title="previsualisation" class="previsualisation">
+      </div>
+      <div class="tarifs clearfix">
+
+
+        <div class="container_tarif clearfix">
+          <h2 class="tarifs_title">Tarif en <span>euros</span></h2>
+          <div class="tarif_euro clearfix">
+            <div class="case first_case">
+              <p>Quantité
+                <p/>
+                <div>
+                  <p class="quantite">5</p><img src="img-layout/arrow-blue.png" alt="fleche"></div>
+            </div>
+            <div class="case">
+              <p>France
+                <p>
+                  <div class="nombre">
+                    <p class="prix">75€</p>
+                    <p class="frais_de_port">+ 15€ de frais de port</p>
+                  </div>
+            </div>
+            <div class="case">
+              <p>DOM
+                <p>
+                  <div class="nombre">
+                    <p class="prix">75€</p>
+                    <p class="frais_de_port">+ 30€ de frais de port</p>
+                  </div>
+            </div>
+            <div class="case">
+              <p>TOM
+                <p>
+                  <div class="nombre">
+                    <p class="prix">75€</p>
+                    <p class="frais_de_port">+ 40€ de frais de port</p>
+                  </div>
+            </div>
+            <div class="case">
+              <p>Europe
+                <p>
+                  <div class="nombre">
+                    <p class="prix">75€</p>
+                    <p class="frais_de_port">+ 30€ de frais de port</p>
+                  </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container_suisse clearfix">
+          <h2 class="tarifs_title franc">Tarif en <span>franc suisse</span></h2>
+          <div class="tarif_euro clearfix suisse">
+            <div class="case first_case">
+              <p>Quantité
+                <p/>
+                <div>
+                  <p class="quantite">5</p><img src="img-layout/arrow-blue.png" alt="fleche"></div>
+            </div>
+            <div class="case">
+              <p>France
+                <p>
+                  <div class="nombre">
+                    <p class="prix">75€</p>
+                    <p class="frais_de_port">+ 15€ de frais de port</p>
+                  </div>
+            </div>
+            <div class="case">
+              <p>DOM
+                <p>
+                  <div class="nombre">
+                    <p class="prix">75€</p>
+                    <p class="frais_de_port">+ 30€ de frais de port</p>
+                  </div>
+            </div>
+            <div class="case">
+              <p>TOM
+                <p>
+                  <div class="nombre">
+                    <p class="prix">75€</p>
+                    <p class="frais_de_port">+ 40€ de frais de port</p>
+                  </div>
+            </div>
+            <div class="case">
+              <p>Europe
+                <p>
+                  <div class="nombre">
+                    <p class="prix">75€</p>
+                    <p class="frais_de_port">+ 30€ de frais de port</p>
+                  </div>
+            </div>
+          </div>
+        </div>
+        <div class="soumettre"><input type="submit" value="Soumettre" /></div>
+      </div>
+
+    </main>
+    <section class="newsletter">
+      <div class="border_newsletter clearfix">
+        <h2>Notre Newsletter</h2>
+        <input type="text" name="Email" placeholder="Entrez votre adresse email">
+      </div>
+    </section>
+    <footer class="clearfix" id="desktop_footer">
+      <div class="footer_container clearfix">
+        <div class="contact"><a href="">contact</a></div>
+        <div class="social_network">
+          <div class="clearfix follow_us">
+            <p>suivez-nous :</p>
+            <a href="#"><img src="img-layout/facebook.svg" alt="facebook" title="facebook"></a>
+            <a href="#"><img src="img-layout/twitter.svg" alt="twitter" title="twitter"></a>
+          </div>
+        </div>
+        <div class="admin_portal"><a href="">portail admin</a></div>
+        <div class="middle_border"></div>
+        <div class="copyright">
+          <p>Copyright ©2017 SOFRE&COM</p>
+        </div>
+        <div class="mentions_legales"><a href="#">Mentions légales</a></div>
+        <div class="realisation">
+          <p>By Nineteen, Digital Hetic Agency</p>
+        </div>
+      </div>
+    </footer>
+    <!---------------------F O O T E R      R E S P O N S I V E ---------------------->
+    <footer class="clearfix" id="mobile_footer">
+      <h2>notre newsletter</h2>
+      <input type="text" name="Email" placeholder="OK">
+      <a class="res_contact" href="#">contact</a>
+      <h2>suivez-nous :</h2>
+      <div class="follow_us clearfix">
+        <a href=""><img src="img-layout/facebook.svg" alt="facebook"></a>
+        <a href=""><img src="img-layout/twitter.svg" alt="twitter"></a>
+      </div>
+      <p>©2017 SOFRE&COM - Mentions légales</p>
+
+    </footer>
+
+    <script src="js/main.js" charset="utf-8"></script>
+
+  </body>
+
+</html>
